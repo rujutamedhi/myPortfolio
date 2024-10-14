@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = ({ setname }) => {
   const handleNameChange = (e) => {
-    setname(e.target.value); // Update the name using setName from props
+    setname(e.target.value); 
   };
 
   return (
@@ -20,7 +20,7 @@ const Navbar = ({ setname }) => {
           <input
             type="text"
             placeholder="Enter your name"
-            onChange={handleNameChange} // Call handleNameChange when the input changes
+            onChange={handleNameChange} 
             className="name-input"
           />
         </div>

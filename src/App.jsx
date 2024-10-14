@@ -7,7 +7,6 @@ import Project from './components/project'
 import Contact from './components/contact'
 
 
-
 const App=()=>{
 const[name,setname]=useState("Rujuta Medhi")
     return(
